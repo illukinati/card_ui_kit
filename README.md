@@ -13,6 +13,7 @@ And yes of course don't forget to update your `pubspec.yaml`
 
 ### Easy Card
 _Example #1_
+
 ![](./ss/ss1.png)
 ```
 new EasyCard(
