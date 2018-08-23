@@ -149,6 +149,10 @@ class _MainScreenState extends State<MainScreen> {
                   ),
                 ],
               ),
+
+              Container(
+                margin: const EdgeInsets.only(bottom: 50.0),
+              ),
             ],
           ),
         ),
