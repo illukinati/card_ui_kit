@@ -27,8 +27,8 @@ This is the basic one, if you don't set any color, everything will be _black_,
 EXCEPT the description it will become _grey_.
 
 _Example #2_
-(./ss/ss2.png)
 
+![](./ss/ss2.png)
 ```
 new EasyCard(
   icon: Icons.card_giftcard,
@@ -39,7 +39,8 @@ new EasyCard(
 You can also remove the description if you don't need them.
 
 _Example #3_
-(./ss/ss3.png)
+
+![](./ss/ss3.png)
 
 ```
 new EasyCard(
@@ -51,7 +52,8 @@ new EasyCard(
 Or maybe you don't need the title, why not ?
 
 _Example #4_
-(./ss/ss4.png)
+
+![](./ss/ss4.png)
 
 ```
 new EasyCard(
@@ -68,7 +70,8 @@ You can make a badge in the left of the card and also coloring it using `prefixB
 and you coloring the icon with `iconColor`.
 
 _Example #5_
-(./ss/ss5.png)
+
+![](./ss/ss5.png)
 
 ```
 new EasyCard(
@@ -82,7 +85,8 @@ new EasyCard(
 Wanna remove the icon ? of course it's easier.
 
 _Example #6_
-(./ss/ss6.png)
+
+![](./ss/ss6.png)
 
 ```
 new EasyCard(
@@ -94,7 +98,8 @@ new EasyCard(
 "What if I want the badge is in the right of the card ?" relax, I already made it for you using `suffixBadge`.
 
 _Example #7_
-(./ss/ss7.png)
+
+![](./ss/ss7.png)
 
 ```
 new EasyCard(
@@ -109,7 +114,8 @@ new EasyCard(
 "The icon ?" still there
 
 _Example #8_
-(./ss/ss8.png)
+
+![](./ss/ss8.png)
 
 ```
 new EasyCard(
@@ -129,7 +135,8 @@ Not only the white card, you can make colored card of course by using `backgroun
 Now we will use more decoration to our cards using `EasyBadgeCard`
 
 _Example #1_
-(./ss/ss9.png)
+
+![](./ss/ss9.png)
 
 ```
 new EasyBadgeCard(
@@ -143,7 +150,8 @@ new EasyBadgeCard(
 looks, so awesome and easy right. Only call `leftBadge` and you will have that decoration badge.
 
 _Example #2_
-(./ss/ss10.png)
+
+![](./ss/ss10.png)
 ```
 new EasyBadgeCard(
   leftBadge: Colors.blue[400],
@@ -158,7 +166,8 @@ new EasyBadgeCard(
 You want use badge with the Icon ? easy, add `prefixIcon` and `prefixIconColor` and wolololoo....
 
 _Example #3_
-(./ss/ss11.png)
+
+![](./ss/ss11.png)
 ```
 new EasyBadgeCard(
   leftBadge: Colors.white,
@@ -177,7 +186,8 @@ And if you want to do inverse, the card have color and white badge, use `backgro
 it's little bit longer but still easier than make from scratch.
 
 _Example #4_
-(./ss/ss12.png)
+
+![](./ss/ss12.png)
 ```
 new EasyBadgeCard(
   title: 'This title',
@@ -191,7 +201,8 @@ new EasyBadgeCard(
 use `rightBadge` instead of `leftBadge`.
 
 _Example #5_
-(./ss/ss13.png)
+
+![](./ss/ss13.png)
 ```
 new EasyBadgeCard(
   title: 'This title',
@@ -207,7 +218,8 @@ and the `rightBadge` could do inverse too.
 Now we will use another decoration to our cards using `CircleBadgeCard`
 
 _Example #1_
-(./ss/ss14.png)
+
+![](./ss/ss14.png)
 ```
 new CircleBadgeCard(
   title: 'Circle Title',
@@ -218,7 +230,8 @@ new CircleBadgeCard(
 only using this 3 attributes, and your circle badge card is already created.
 
 _Example #2_
-(./ss/ss16.png)
+
+![](./ss/ss16.png)
 ```
 new CircleBadgeCard(
   title: 'Circle Title',
@@ -237,7 +250,8 @@ Now we can make multiple card using `EasyMultipleCard`, I hope in the future I c
 Because I need to go home now. I will continue tomorrow, wwww.
 
 _Example #1_
-(./ss/ss15.png)
+
+![](./ss/ss15.png)
 ```
 new EasyMultipleCard(
   title: 'Payment method',
@@ -266,6 +280,9 @@ new EasyMultipleCard(
 `EasyMultipleCard` has `title`, `prefixIcon` and `suffixIcon`. and the divider you can coloring it as you want using 
 `dividerColor`. `EasyMultipleCard` has children with each item using `ItemMultipleCard`, it has `icon` , `title` ans `status`.
 And yes of course you can coloring them all.
+
+## Additional Note
+I use `Pier` font in this project.
 
 Thanks guys, feel free to contribute to this simple ez pz lemon squeezy project. I don't want you to donate me just wish me
 that I could get her heart, and live together forever with someone who has boyfriend already :')
