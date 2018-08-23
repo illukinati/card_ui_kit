@@ -124,6 +124,13 @@ class _MainScreenState extends State<MainScreen> {
                 description: 'mini description',
                 backgroundColor: Colors.red,
               ),
+              new CircleBadgeCard(
+                title: 'Circle Title',
+                description: 'mini description',
+                backgroundColor: Colors.blueAccent,
+                icon: Icons.crop_original,
+                iconColor: Colors.blueAccent,
+              ),
 
               //multiple choice
               new EasyMultipleCard(

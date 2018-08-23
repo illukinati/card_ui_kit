@@ -7,6 +7,8 @@ class CircleBadgeCard extends StatelessWidget {
   final Color descriptionColor;
   final Color backgroundColor;
   final Function onTap;
+  final IconData icon;
+  final Color iconColor;
 
   const CircleBadgeCard({
     Key key,
@@ -16,6 +18,8 @@ class CircleBadgeCard extends StatelessWidget {
     this.title,
     this.description,
     this.onTap,
+    this.icon,
+    this.iconColor,
   }) : super(key: key);
 
   @override
@@ -66,10 +70,19 @@ class CircleBadgeCard extends StatelessWidget {
                     child: Container(),
                   ),
                   Container(
-                    margin: const EdgeInsets.only(top: 15.0),
+                    margin:
+                        EdgeInsets.only(top: (this.icon != null) ? 0.0 : 15.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
+                        (this.icon != null)
+                            ? Icon(
+                                this.icon,
+                                color: (this.iconColor != null)
+                                    ? this.iconColor
+                                    : Colors.black,
+                              )
+                            : Container(),
                         Text(
                           (this.title != null) ? this.title : "",
                           style: TextStyle(
